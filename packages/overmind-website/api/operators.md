@@ -1,4 +1,4 @@
-# Operators
+# operators
 
 Overmind also provides a functional API to help you manage complex logic. This API is inspired by asynchronous flow libraries like RxJS, though it is designed to manage application state and effects. If you want to create and use a traditional action "operator style" you define it like this:
 
@@ -50,6 +50,10 @@ Allows you to execute an operator/pipe based on the matching key.
 
 ```marksy
 h(Example, { name: "api/operators_operator_fork" })
+```
+
+```marksy
+h(TypescriptNotice, null, "You have to use ENUM for these keys for the typing to work")
 ```
 
 ## map
@@ -119,6 +123,13 @@ Hold execution for set time.
 
 ```marksy
 h(Example, { name: "api/operators_operator_wait" })
+```
+
+## waitUntil
+Wait until a state condition is true.
+
+```marksy
+h(Example, { name: "api/operators_operator_waituntil" })
 ```
 
 ## when

@@ -23,18 +23,18 @@
 		"demo"
 	],
 	"dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
 		"emotion": "^9.2.12",
 		"express": "^4.16.3",
 		"install": "^0.12.1",
 		"marksy": "^6.1.0",
 		"npm": "^6.3.0",
-		"overmind-react": "next",
+    "overmind-react": "next",
 		"page": "^1.8.6",
     "prismjs": "^1.15.0",
     "query-string": "^6.2.0"
   },
   "devDependencies": {
-		"@types/node": "^10.12.21"
+		"@types/node": "^12.11.6"
   }
 }
